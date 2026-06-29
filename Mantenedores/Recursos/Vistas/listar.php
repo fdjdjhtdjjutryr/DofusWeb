@@ -45,7 +45,7 @@ include ROOT_PATH . "/Mantenedores/Recursos/Acciones/read.php";
 
                                     <td><?php echo $fila['nombre_recurso']; ?></td>
 
-                                    <td><?php echo $fila['xo_recurso']; ?></td>
+                                    <td><?php echo $fila['xp_recurso']; ?></td>
 
                                     <td><?php echo $fila['tasa_conversion']; ?></td>
 
