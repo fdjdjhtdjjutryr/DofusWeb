@@ -8,6 +8,6 @@
     $consulta = "INSERT INTO recursos(nombre_recurso,xp_recurso,tasa_conversion,nivel_recurso) VALUES ('$nombre_recurso','$xp_recurso','$tasa_conversion','$nivel_recurso')";
     $resultado = mysqli_query($conexion , $consulta);
 
-    header("Location: " . BASE_URL . "/Mantenedores/Clases/Vistas/listar.php");
+    header("Location: " . BASE_URL . "/Mantenedores/Recursos/Vistas/listar.php");
     exit();
 ?>
