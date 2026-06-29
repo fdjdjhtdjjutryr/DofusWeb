@@ -27,7 +27,7 @@ include ROOT_PATH . "/Mantenedores/Misiones/Acciones/read.php";
                             <tr>
                                 <th class="col-1">ID</th>
                                 <th class="col-1">Logro</th>
-                                <th class="col-4">Nombre</th>
+                                <th class="col-4">Nombre Mision</th>
                                 <th class="col-2">Acciones</th>
                             </tr>
 

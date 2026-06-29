@@ -27,7 +27,7 @@ include ROOT_PATH . "/includes/header.php";
         <main class="col-md-10 ms-sm-auto px-4">
             <div class="container align-items-start">
                 <div class="text-center">
-                    <h2>Editar Clase</h2>
+                    <h2>Editar Mision</h2>
                 </div>
                 <form action="../Acciones/update.php" method="POST" >
                     <div class="row align-items-start">
@@ -38,7 +38,7 @@ include ROOT_PATH . "/includes/header.php";
                         <div class="col-5">
                             <label for="exampleFormControlInput1" class="form-label">Nombre del Logro</label>
                             <select name="id_logro" class="form-select">
-                            <?php while($fila = mysqli_fetch_assoc($resultadoCuentas)){ ?>
+                            <?php while($fila = mysqli_fetch_assoc($resultadoLogros)){ ?>
 
                                 <option value="<?= $fila['id_logro'] ?>"
                                     <?= ($fila['id_logro'] == $id_logro) ? "selected" : "" ?>
