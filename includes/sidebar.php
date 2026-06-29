@@ -30,7 +30,15 @@
                     <li >
                         <button class="boton-sidebar">
                             <a class="link-sidebar" href="<?= BASE_URL ?>/Mantenedores/Oficios/Vistas/listar.php">
-                                <img width="30" src="<?= BASE_URL ?>/img/oficio_imagen.png" > Cuentas
+                                <img width="30" src="<?= BASE_URL ?>/img/oficio_imagen.png" > Oficios
+                            </a>
+                        </button>
+                        
+                    </li>
+                    <li >
+                        <button class="boton-sidebar">
+                            <a class="link-sidebar" href="<?= BASE_URL ?>/Mantenedores/Logros/Vistas/listar.php">
+                                <img width="30" src="<?= BASE_URL ?>/img/logros_imagen.png" > Logros
                             </a>
                         </button>
                         
