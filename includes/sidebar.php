@@ -67,6 +67,14 @@
                         </button>
                         
                     </li>
+                    <li >
+                        <button class="boton-sidebar">
+                            <a class="link-sidebar" href="<?= BASE_URL ?>/Mantenedores/Recursos/Vistas/listar.php">
+                                <img width="30" src="<?= BASE_URL ?>/img/recursos_imagen.png" > Recursos
+                            </a>
+                        </button>
+                        
+                    </li>
                     
                         
                     
