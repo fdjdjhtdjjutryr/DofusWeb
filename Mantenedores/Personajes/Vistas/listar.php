@@ -41,7 +41,7 @@ include ROOT_PATH . "/Mantenedores/Personajes/Acciones/read.php";
 
                                 <tr>
 
-                                    <td><?php echo $fila['id_cuenta']; ?></td>
+                                    <td><?php echo $fila['id_personaje']; ?></td>
 
                                     <td><?php echo $fila['nombre_cuenta']; ?></td>
 
@@ -49,7 +49,7 @@ include ROOT_PATH . "/Mantenedores/Personajes/Acciones/read.php";
 
                                     <td><?php echo $fila['nivel_personaje']; ?></td>
 
-                                    <td><?php echo $fila['clase_personaje']; ?></td>
+                                    <td><?php echo $fila['nombre_clase']; ?></td>
 
                                     <td>
                                         

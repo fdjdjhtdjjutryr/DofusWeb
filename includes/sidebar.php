@@ -46,7 +46,7 @@
                     <li >
                         <button class="boton-sidebar">
                             <a class="link-sidebar" href="<?= BASE_URL ?>/Mantenedores/Personajes/Vistas/listar.php">
-                                <img width="30" src="<?= BASE_URL ?>/img/clases_imagen.png" > Logros
+                                <img width="30" src="<?= BASE_URL ?>/img/clases_imagen.png" > Personajes
                             </a>
                         </button>
                         
