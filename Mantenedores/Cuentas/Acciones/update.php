@@ -5,7 +5,7 @@
     $apodo_cuenta=$_POST["apodo_cuenta"];
     $correo_cuenta=$_POST["correo_cuenta"];
 
-    $consulta = "UPDATE cuenta SET nombre_cuenta = '$nombre_cuenta' ,apodo_cuenta = '$apodo_cuenta' ,correo_cuenta = '$correo_cuenta'  WHERE id_clase = '$id_clase';";
+    $consulta = "UPDATE cuenta SET nombre_cuenta = '$nombre_cuenta' ,apodo_cuenta = '$apodo_cuenta' ,correo_cuenta = '$correo_cuenta'  WHERE id_cuenta = '$id_cuenta';";
     $resultado = mysqli_query($conexion , $consulta);
 
     header("Location: " . BASE_URL . "/Mantenedores/Cuentas/Vistas/listar.php");
