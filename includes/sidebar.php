@@ -59,6 +59,14 @@
                         </button>
                         
                     </li>
+                    <li >
+                        <button class="boton-sidebar">
+                            <a class="link-sidebar" href="<?= BASE_URL ?>/Mantenedores/Oficios_personaje/Vistas/listar.php">
+                                <img width="30" src="<?= BASE_URL ?>/img/oficio_imagen.png" > Oficio de Main
+                            </a>
+                        </button>
+                        
+                    </li>
                     
                         
                     
