@@ -51,6 +51,14 @@
                         </button>
                         
                     </li>
+                    <li >
+                        <button class="boton-sidebar">
+                            <a class="link-sidebar" href="<?= BASE_URL ?>/Mantenedores/Misiones/Vistas/listar.php">
+                                <img width="30" src="<?= BASE_URL ?>/img/misiones_imagen.png" > Misiones
+                            </a>
+                        </button>
+                        
+                    </li>
                     
                         
                     
