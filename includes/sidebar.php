@@ -75,6 +75,14 @@
                         </button>
                         
                     </li>
+                    <li >
+                        <button class="boton-sidebar">
+                            <a class="link-sidebar" href="<?= BASE_URL ?>/Mantenedores/Monstruos/Vistas/listar.php">
+                                <img width="30" src="<?= BASE_URL ?>/img/monstruos_imagen.png" > Monstruos
+                            </a>
+                        </button>
+                        
+                    </li>
                     
                         
                     
