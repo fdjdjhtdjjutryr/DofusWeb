@@ -83,6 +83,14 @@
                         </button>
                         
                     </li>
+                    <li >
+                        <button class="boton-sidebar">
+                            <a class="link-sidebar" href="<?= BASE_URL ?>/Mantenedores/Recurso_byc/Vistas/listar.php">
+                                <img width="30" src="<?= BASE_URL ?>/img/mapa_imagen.png" > Recurso ByC
+                            </a>
+                        </button>
+                        
+                    </li>
                     
                         
                     
