@@ -91,6 +91,14 @@
                         </button>
                         
                     </li>
+                    <li >
+                        <button class="boton-sidebar">
+                            <a class="link-sidebar" href="<?= BASE_URL ?>/Mantenedores/Mapas/Vistas/listar.php">
+                                <img width="30" src="<?= BASE_URL ?>/img/mapa_imagen.png" > Mapas
+                            </a>
+                        </button>
+                        
+                    </li>
                     
                         
                     
